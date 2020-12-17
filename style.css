@@ -1,0 +1,118 @@
+.nav-link{
+    font-size:20px;
+    transition:0.5s;
+}
+.nav-item{
+    padding: 10px;
+    
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color : red;
+}
+.navbar-bg{
+    height: 110px;
+}
+#home-section .carousel-item img{
+    height: 600px;
+    width: auto;
+}
+#home-section{
+    padding-top:82px;
+}
+/*==========MARQUEE SECTION END=============*/
+#marquee-section{
+    background:#D4EDDA;
+    width: 100%;
+}
+#marquee-section strong{
+    width: 100px;
+    font-size:20px;
+    font-weight: bold;
+} 
+#marquee-section button{
+    background-color: #D4EDDA;
+    border:0;
+    font-size: 20px;
+}
+#marquee-section marquee{
+    font-size:20px;
+}
+/*==========MARQUEE SECTION END=============*/
+
+/*THREE BIG IMAGE SECTION START*/
+#big-three-img-section a {
+    text-decoration: none;
+}
+#big-three-img-section .card-body strong{
+    color: #4e4141;
+    font-size: 23px;  
+}
+/*THREE BIG IMAGE SECTION START*/
+
+
+ /*================SERVICES TEXT SECTION START===============*/
+
+ #service-image-text{
+     font-weight: bold;
+ }
+#service-image-text h2::after {
+    content: "";
+    display: block;
+    width: 153px;
+    background: #FFDC12;
+    height: 4px;
+    margin: auto;
+    margin-top: 4px;
+}
+
+/*SERVICES IMG*/
+#service-image-text .card img{
+    width: 180px;
+    margin:auto;
+    height: 180px;
+}
+#service-image-text a{
+    text-decoration: none;
+}
+#service-image-text #Carousel-slider .carousel-inner .carousel-item img{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+}
+#service-image-text #Carousel-slider .carousel-inner .carousel-item p {
+    font-size:25px;
+    color:#f1dbdb;
+    font-weight: normal;
+
+}
+
+#service-image-text #Carousel-slider .carousel-inner .carousel-item .small-font{
+    font-size:15px;
+    font-weight: bold;
+}
+#service-image-text #Carousel-slider .carousel-inner .carousel-item small{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+  /*SERVICES TEXT SECTION END*/
+ @media(min-width:768){
+    #service-image-text .video{
+       
+
+    }
+ }
+
+ /*FOOTER SECITON START*/
+
+
+ #footer-section ul li a{
+     color:#fff;
+     text-decoration: none;
+ }
+ #footer-section .d-flex a{
+     margin-left:10px;
+ }
+
+/*FOOTER SECITON START*/
